@@ -1,7 +1,9 @@
 const inputs = document.querySelector(".inputs"),
 hintTag = document.querySelector(".hint span"),
 guessLeft = document.querySelector(".guess-left span"),
-wrongLetter = document.querySelector(".wrong-letter span");
+wrongLetter = document.querySelector(".wrong-letter span"),
+resetBtn = document.querySelector(".reset-btn"),
+typingInput = document.querySelector(".typing-input");
 
 
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
@@ -15,6 +17,29 @@ function randomWord() {
     guessLeft.innerText = maxGuesses;
     wrongLetter.innerText = incorrectLetters;
 
+    let html = "";
+    for (let i = 0; i < word.length; i++) {
+        html += `<input type="text" disabled>`;
+        inputs.innerHTML = html;
+    }
+
   
 }
 randomWord();
+
+function initGame(e) {
+    let key = e.target.value.toLowerCase();
+    if(key.match(/^[A-Za-z]+$/) && !incorrectLetters.includes(` ${key}`) && !correctLetters.includes(key)) {
+        if(word.includes(key)) {
+            for (let i = 0; i < word.length; i++) {
+                if(word[i] == key) {
+                    correctLetters += key;
+                    inputs.querySelectorAll("input")[i].value = key;
+                }
+            }
+        } else {
+            maxGuesses--;
+            incorrectLetters.push(` ${key}`);
+        }
+    }
+}
