@@ -138,5 +138,33 @@ let wordList = [
     {
         word: "email",
         hint: "related to exchanging message"
+    },
+    {
+        word: "html",
+        hint: "markup language for the web"
+    },
+    {
+        word: "air",
+        hint: "related to a gas"
+    },
+    {
+        word: "idea",
+        hint: "a thought or suggestion"
+    },
+    {
+        word: "server",
+        hint: "related to computer or system"
+    },
+    {
+        word: "svg",
+        hint: "a vector image format"
+    },
+    {
+        word: "jpeg",
+        hint: "a image file format"
+    },
+    {
+        word: "search",
+        hint: "act to find something"
     }
 ]
