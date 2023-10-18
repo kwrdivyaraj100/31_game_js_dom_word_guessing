@@ -41,5 +41,8 @@ function initGame(e) {
             maxGuesses--;
             incorrectLetters.push(` ${key}`);
         }
+        guessLeft.innerText = maxGuesses;
+        wrongLetter.innerText = incorrectLetters;
     }
+    typingInput.value = "";
 }
