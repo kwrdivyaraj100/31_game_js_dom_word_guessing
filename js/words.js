@@ -62,5 +62,45 @@ let wordList = [
     {
         word: "hockey",
         hint: "a famous outdoor game"
+    },
+    {
+        word: "chess",
+        hint: "related to a indoor game"
+    },
+    {
+        word: "viber",
+        hint: "a social media app"
+    },
+    {
+        word: "github",
+        hint: "code hosting platform"
+    },
+    {
+        word: "png",
+        hint: "a image file format"
+    },
+    {
+        word: "silver",
+        hint: "precious greyish-white metal"
+    },
+    {
+        word: "mobile",
+        hint: "an electronic device"
+    },
+    {
+        word: "gpu",
+        hint: "computer component"
+    },
+    {
+        word: "java",
+        hint: "programming language"
+    },
+    {
+        word: "google",
+        hint: "famous search engine"
+    },
+    {
+        word: "venice",
+        hint: "famous city of waters"
     }
 ]
