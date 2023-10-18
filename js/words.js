@@ -166,5 +166,33 @@ let wordList = [
     {
         word: "search",
         hint: "act to find something"
+    },
+    {
+        word: "key",
+        hint: "small piece of metal"
+    },
+    {
+        word: "egypt",
+        hint: "a country name"
+    },
+    {
+        word: "joker",
+        hint: "psychological thriller film"
+    },
+    {
+        word: "dubai",
+        hint: "developed country name"
+    },
+    {
+        word: "photo",
+        hint: "representation of person or scene"
+    },
+    {
+        word: "nile",
+        hint: "largest river in the world"
+    },
+    {
+        word: "rain",
+        hint: "related to a water"
     }
 ]
