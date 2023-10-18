@@ -102,5 +102,41 @@ let wordList = [
     {
         word: "venice",
         hint: "famous city of waters"
+    },
+    {
+        word: "excel",
+        hint: "microsoft product for windows"
+    },
+    {
+        word: "mysql",
+        hint: "a relational database system"
+    },
+    {
+        word: "nepal",
+        hint: "developing country name"
+    },
+    {
+        word: "flute",
+        hint: "a musical instrument"
+    },
+    {
+        word: "crypto",
+        hint: "related to cryptocurrency"
+    },
+    {
+        word: "tesla",
+        hint: "unit of magnetic flux density"
+    },
+    {
+        word: "mars",
+        hint: "planet of our solar system"
+    },
+    {
+        word: "proxy",
+        hint: "related to server application"
+    },
+    {
+        word: "email",
+        hint: "related to exchanging message"
     }
 ]
